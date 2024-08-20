@@ -97,5 +97,8 @@ form.addEventListener("submit", (e) => {
     } else if (userPassword.validity.valueMissing || confirmPassword.validity.valueMissing) {
         passwordError();
         e.preventDefault();
+    } else {
+        // If all is well and the form is “submitted”, give the user a high five.
+        alert('Form has been submitted! High Five!');
     }
 });
