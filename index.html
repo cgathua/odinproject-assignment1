@@ -21,11 +21,11 @@
                 </fieldset>
 
                 <fieldset>
-                    <label id="emailLabel" for="email">Email (required) <input type="email" name="user_email" id="email" aria-labelledby="emailLabel" autocomplete="email" required></label>
-                    <label id="countryLabel" for="country">Country (required) <select name="user_country" id="country" aria-labelledby="countryLabel" autocomplete="country" required><option value="US">United States</option></select></label>
-                    <label id="zipcodeLabel" for="zip_code">Zip Code (required) <input type="text" name="user_zipcode" id="zip_code" aria-labelledby="zipcodeLabel" autocomplete="postal-code" required></label>
-                    <label id="passwordLabel" for="password">Password (required) <input type="password" name="user_password" id="password" aria-labelledby="passwordLabel" required></label>
-                    <label id="confirmLabel" for="confirm">Confirm Password (required) <input type="password" name="user_confirm" id="confirm" aria-labelledby="confirmLabel" required></label>
+                    <label id="emailLabel" for="email">Email (required) <input type="email" name="user_email" id="email" aria-labelledby="emailLabel" autocomplete="email" required aria-required="true"></label>
+                    <label id="countryLabel" for="country">Country (required) <select name="user_country" id="country" aria-labelledby="countryLabel" autocomplete="country" required aria-required="true"><option value="US">United States</option></select></label>
+                    <label id="zipcodeLabel" for="zip_code">Zip Code (required) <input type="text" name="user_zipcode" id="zip_code" aria-labelledby="zipcodeLabel" autocomplete="postal-code" required aria-required="true"></label>
+                    <label id="passwordLabel" for="password">Password (required) <input type="password" name="user_password" id="password" aria-labelledby="passwordLabel" required aria-required="true"></label>
+                    <label id="confirmLabel" for="confirm">Confirm Password (required) <input type="password" name="user_confirm" id="confirm" aria-labelledby="confirmLabel" required aria-required="true"></label>
                     <p id="message" data-name="message" aria-live="polite"></p>
                 </fieldset>
                 <input type="submit" id="submit" value="submit" data-name="submit" aria-label="submit">
